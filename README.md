@@ -5,7 +5,10 @@ a linguagem C# do perfil da empresa.
 
 Utilizar npm -i antes de executar
 
-Projeto utiliza axios como dependencia
+link com a api rodando:
+https://testeblipricardo.herokuapp.com/repositorios
+
+Não obtive sucesso ao conectar a api com o bot, porém a parte que recebe e trata os dados está funcional.
 
 Para chamadas GET deve ser inserir no body o valor abaixo:
 
@@ -13,4 +16,4 @@ Para chamadas GET deve ser inserir no body o valor abaixo:
     "type": "text/plain",
     "content": "Hello, robot",
     "to": "553199990000@0mn.io"
-}`
+}
